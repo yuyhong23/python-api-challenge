@@ -86,3 +86,19 @@ Now let's use your skills in working with weather data to plan future vacations.
 
 My first assignment using Python requests, APIs, and Json traversals, as well as dealing with gitignore to hide the config.py (where the API keys are stored). I used class materials and outside resources for references, attended office hour, asked Bootcamp's Learning Assistant App for help, and also seeked help from my classmate to complete this assignment.
 
+1. When I first started to work on weatherpy, I was kind of overwhelmed and confused at the beginning. So I attended office hour and instructor pointed out that we need to extract some info from the OpenWeatherMap. He showed me that I can create a key to hold a list of value, and then make a dictionary to hold the extracted values. Then append the dictionary to the list. He also showed me how to convert unix timestamp to readable dates, but that wasn't necessary, since that will give me error when trying to calculate statistical info for all the columns.
+
+2. When I was working on vacationpy, I wasn't able to retrieve the name of the hotel for each city, what I ended up getting was the city name. I asked the Learning Assistant, she said my code looked fine. Then I asked my classmate, and she told me it was because for type I entered "hotels" instead of "lodging." It was tricky.
+
+Here are the outside resources I used for this assignment (as well as attempts):
+
+  - https://stackoverflow.com/questions/3682748/converting-unix-timestamp-string-to-readable-date
+  - http://jonathansoma.com/lede/data-studio/matplotlib/labeling-your-axes-in-pandas-and-matplotlib/
+  - https://www.pacioos.hawaii.edu/voyager-news/lat-long-formats/
+  - https://matplotlib.org/3.1.1/gallery/text_labels_and_annotations/annotation_demo.html
+  - https://gist.github.com/subfuzion/db7f57fff2fb6998a16c
+  - https://stackoverflow.com/questions/25436312/gitignore-not-working
+  - https://www.mapsmarker.com/kb/faq/for-development-purposes-only-error-on-google-basemaps/
+  - https://jupyter-gmaps.readthedocs.io/en/latest/tutorial.html
+  - https://buildmedia.readthedocs.org/media/pdf/jupyter-gmaps/stable/jupyter-gmaps.pdf
+  - https://developers.google.com/places/web-service/overview
